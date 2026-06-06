@@ -2,14 +2,14 @@ import csv
 import requests
 
 # ===================================================
-# 🔐 WHATSAPP CLOUD API DETAILS
+#  WHATSAPP CLOUD API DETAILS
 # ===================================================
 
 PHONE_NUMBER_ID = "992732720594958"
 ACCESS_TOKEN = "EAAQ9TXFJyugBQySP22RlXzkMQzr1aeQSnMNijkeNTJ9uAbg6ZCMbVZCmudIZAOmy3sZBVOVuKSoUctGhE9BYwuodw5ZCobFOMWPHTzbg65PEyrJm6rMAkvGnGLeYdaeUzsmTn3J9ZBl4poT1iuEhpS4R5wdrKspnZCfZB7TSLpnPxmr5q4Mm4zHr7unP5oVqs59jgXM1RtZA4fKyZAu6cbuYJelqXXm4a50LsVRm9OZBdmIsKREqDsOl1ZAaI7i1P6CP81KF0I37NuXHBhAYse90HWCZB3doM"
 
 # ===================================================
-# 📲 FUNCTION TO SEND WHATSAPP MESSAGE
+#  FUNCTION TO SEND WHATSAPP MESSAGE
 # ===================================================
 
 def send_whatsapp_message(to_number, message):
@@ -36,7 +36,7 @@ def send_whatsapp_message(to_number, message):
 
 
 # ===================================================
-# 📂 LOAD STUDENTS DATA (students.csv)
+#  LOAD STUDENTS DATA (students.csv)
 # ===================================================
 
 def load_students(file_path):
@@ -70,7 +70,7 @@ def load_students(file_path):
 
 
 # ===================================================
-# 📂 PROCESS ATTENDANCE (attendance.csv)
+#  PROCESS ATTENDANCE (attendance.csv)
 # ===================================================
 
 def process_attendance(attendance_file, students):
@@ -117,7 +117,7 @@ Please ensure regular attendance.
 
 
 # ===================================================
-# 🚀 MAIN PROGRAM
+#  MAIN PROGRAM
 # ===================================================
 
 if __name__ == "__main__":
